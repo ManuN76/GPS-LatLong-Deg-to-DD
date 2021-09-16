@@ -1,0 +1,28 @@
+[
+  {
+    "kind": "column",
+    "name": "lat.long",
+    "description": "Conversion GPS DNS en Degrées latitude,longitude",
+    "author": "Manu.n",
+    "params": [
+      {
+        "name": "lat",
+        "displayName": "latitude (exemple: N 45° 55' 5.1\")",
+        "type": "string"
+      },
+      {
+        "name": "long",
+        "displayName": "longitude (exemple: E 45° 55' 5.1\")",
+        "type": "string"
+      },
+      {
+        "name": "precision",
+        "displayName": "precision",
+        "type": "number"
+      }
+    ],
+    "result": {
+      "type": "string"
+    }
+  }
+]
